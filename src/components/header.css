@@ -1,0 +1,18 @@
+.header1 {
+	background-color: red;
+}
+
+.navBar {
+	display: flex;
+	flex-direction: row; /*defaukt*/
+	list-style-type: none;
+	justify-content: space-around;
+	border: 1px solid black;
+	flex-wrap:wrap;
+	margin:0 20px 0 20px;
+	background-color: grey;
+}
+
+li:hover {
+	cursor: progress;
+}
